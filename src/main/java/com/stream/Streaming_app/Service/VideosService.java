@@ -8,6 +8,7 @@ import java.util.List;
 public class VideosService {
 
     public Videos SaveVideo(Videos video, MultipartFile file){
+        String filename = file.getOriginalFilename();
         return null;
     }
 
